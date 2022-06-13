@@ -1,0 +1,547 @@
+//desktops
+@media (min-width: 1200px) and  (max-width: 1399px) {
+
+}
+
+//desktops
+@media (min-width: 992px) and (max-width: 1199px) {
+  .call-history-list .td-1 {
+    width: 25%;
+  }
+  .call-history-list .td-2 {
+    width: calc(14% - 10px);
+  }
+  .call-history-list .td-3 {
+    width: calc(12% - 10px);
+  }
+  .call-history-list .td-4 {
+    width: calc(39% - 10px);
+  }
+  .call-history-list .td-5 {
+    width: calc(10% - 10px);
+  }
+  .call-history-data {
+    font-size: 15px;
+  }
+  .teacher-card {
+    padding: 20px;
+  }
+  .user-badge-lg .user-badge-img {
+    width: 100px;
+    height: 100px;
+  }
+  .user-badge-lg .user-badge-caption {
+    margin-left: 20px;
+  }
+  .user-card-lg .user-price span {
+    font-size: 20px;
+  }
+}
+
+//tablets
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-logo {
+    display: none;
+  }
+  .footer-copyright {
+    display: none;
+  }
+  .footer-nav {
+    width: 100%;
+    margin-left: 0;
+  }
+  .footer-product {
+    margin-bottom: 30px;
+  }
+  .footer-body{
+    padding-bottom: 0;
+  }
+  .sidebar {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    transition: 0.2s ease;
+    padding: 15px;
+    z-index: 10;
+    transform: translateX(-100%);
+    background: #fff;
+  }
+  .sidebar.show {
+    transform: translateX(0);
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .toggle-sidebar {
+    display: flex;
+  }
+  .call-history-list .td-1 {
+    width: 25%;
+  }
+  .call-history-list .td-2 {
+    width: calc(14% - 10px);
+  }
+  .call-history-list .td-3 {
+    width: calc(12% - 10px);
+  }
+  .call-history-list .td-4 {
+    width: calc(39% - 10px);
+  }
+  .call-history-list .td-5 {
+    width: calc(10% - 10px);
+  }
+  .call-history-data {
+    font-size: 15px;
+  }
+  .user-badge-lg .user-badge-img {
+    width: 100px;
+    height: 100px;
+  }
+  .user-badge-lg .user-badge-caption {
+    margin-left: 20px;
+  }
+  .user-card-lg .user-price span {
+    font-size: 20px;
+  }
+}
+
+//landscape phones
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer-logo {
+    display: none;
+  }
+  .footer-copyright {
+    display: none;
+  }
+  .footer-nav {
+    width: 100%;
+    margin-left: 0;
+  }
+  .footer-product {
+    margin-bottom: 30px;
+  }
+  .footer-nav-link {
+    font-size: 13px;
+    line-height: 120%;
+  }
+  .footer-product-list li {
+    margin-top: 3px;
+  }
+  .footer-product-link {
+    font-size: 14px;
+    line-height: 120%;
+    padding: 5px 12px;
+  }
+  .footer-body {
+    padding-bottom: 0;
+  }
+  .footer-top {
+    padding: 10px 0;
+  }
+  .footer-social li {
+    margin-right: 15px;
+  }
+  .footer-app-link + .footer-app-link {
+    margin-left: 15px;
+  }
+  .footer-app-link {
+    max-height: 40px;
+  }
+  .footer-social i {
+    width: 25px;
+    height: 25px;
+  }
+  .upload-img-instruction {
+    margin-left: 40px;
+  }
+  .sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    transition: 0.2s ease;
+    padding: 15px;
+    z-index: 10;
+    transform: translateX(-100%);
+    background: #fff;
+  }
+  .sidebar.show {
+    transform: translateX(0);
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .toggle-sidebar {
+    display: flex;
+  }
+  .user-card-md {
+    display: block;
+  }
+  .user-price-lang {
+    padding-left: 118px;
+  }
+  .user-price-lang .user-lang {
+    justify-content: flex-start;
+  }
+  .info-box-wrapper {
+    display: block;
+  }
+  .info-box {
+    width: calc(100% - 22px);
+  }
+
+
+  .call-history-row.call-history-header {
+    display: none;
+  }
+  .call-history-row {
+    display: block;
+  }
+  .call-history-list {
+    .td-1 {
+      width: 100%;
+    }
+    .td-2 {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 5px;
+    }
+    .td-3 {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 5px;
+    }
+    .td-4 {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 5px;
+    }
+    .td-5 {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 5px;
+      justify-content: flex-start;
+    }
+  }
+  .call-history-data {
+    display: flex;
+  }
+  .call-history-header-xs {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: -0.32px;
+    color: #6d7885;
+    width: 150px;
+    flex-shrink: 0;
+    text-align: left;
+  }
+  .teacher-card {
+    padding: 20px;
+  }
+  .user-card-lg {
+    display: block;
+  }
+  .user-badge-lg {
+    justify-content: flex-start;
+    margin-right: 0;
+    position: relative;
+  }
+  .user-badge-lg .user-badge-img {
+    width: 100px;
+    height: 100px;
+  }
+  .user-badge-lg .user-badge-caption {
+    margin-left: 20px;
+    flex: 1;
+  }
+  .user-badge-lg .user-badge-name {
+    padding-right: 90px;
+  }
+  .user-card-lg .user-price {
+    margin-left: 0;
+    padding-left: 120px;
+    margin-top: 15px;
+  }
+  .teacher-card-bottom {
+    margin-top: 20px;
+  }
+  .btn-top {
+    display: none;
+  }
+  .btn-top.btn-top-xs {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .teacher-card-subjects {
+    padding-right: 0;
+  }
+
+}
+
+//phones
+@media (min-width: 320px) and (max-width: 575px) {
+  .footer-top {
+    display: block;
+    padding: 0;
+  }
+  .footer-app-link {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+  .footer-social {
+    padding: 15px 0;
+  }
+  .footer-app {
+    padding: 10px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+  }
+  .footer-body {
+    padding: 12px 0 14px 0;
+  }
+  .footer-product {
+    margin-bottom: 5px;
+    padding: 13px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  .footer-product h6 {
+    padding: 0;
+    position: relative;
+  }
+  .footer-product h6:after {
+    content: '';
+    background: url("../img/icon/chevron-down-24.svg") no-repeat center/contain;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+  .footer-product.show h6:after {
+    transform: translateY(-50%) rotate(180deg);
+  }
+  .footer-product-list li {
+    margin-top: 0;
+  }
+  .footer-product-list li:first-child {
+    margin-top: 6px;
+  }
+  .footer-product-list {
+    display: none;
+  }
+  .footer-product.active .footer-product-list {
+    display: block;
+  }
+  .footer-bottom {
+    padding: 15px 0 20px 0;
+  }
+  .footer-bottom-content {
+    display: block;
+  }
+  .footer-nav {
+    display: block;
+    margin-top: 8px;
+    margin-left: -12px;
+  }
+  .footer-nav li {
+    justify-content: flex-start;
+  }
+  .footer-nav li + li {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+  .footer-copyright {
+    margin-top: 7px;
+    text-align: left;
+    margin-left: 0;
+  }
+  .sidebar {
+    position: fixed;
+    width: calc(100% - 50px);
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    transition: 0.2s ease;
+    padding: 15px;
+    z-index: 10;
+    transform: translateX(-100%);
+    background: #fff;
+  }
+  .sidebar.show {
+    transform: translateX(0);
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .toggle-sidebar {
+    display: flex;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    bottom: 15px;
+    right: 15px;
+    left: initial;
+    padding: 10px;
+    transform: initial;
+  }
+  .toggle-sidebar span {
+    display: none;
+  }
+  .profile-img {
+    display: block;
+  }
+  .upload-img-instruction {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .form-half {
+    flex-direction: column;
+  }
+  .form-half .form-group {
+    width: calc(100% - 30px);
+  }
+  .form-third {
+    flex-direction: column;
+  }
+  .form-third .form-group {
+    width: calc(100% - 30px);
+  }
+  .profile-edit-buttons .btn {
+    width: calc(50% - 5px);
+  }
+
+  .user-card-md {
+    display: block;
+  }
+  .user-badge-md {
+    display: block;
+  }
+  .user-badge-md .user-badge-caption {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .user-card-md .user-price-lang {
+    margin-top: 15px;
+  }
+  .user-price-lang .user-lang {
+    justify-content: flex-start;
+  }
+  .info-box-wrapper {
+    display: block;
+  }
+  .info-box {
+    width: calc(100% - 22px);
+  }
+  .progress-info-item {
+    padding: 10px;
+  }
+  .call-history-row.call-history-header {
+    display: none;
+  }
+  .call-history-row {
+    display: block;
+  }
+  .call-history-list {
+    .td-1 {
+      width: 100%;
+    }
+    .td-2 {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 5px;
+    }
+    .td-3 {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 5px;
+    }
+    .td-4 {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 5px;
+    }
+    .td-5 {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 5px;
+      justify-content: flex-start;
+    }
+  }
+  .call-history-data {
+    display: flex;
+  }
+  .call-history-header-xs {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: -0.32px;
+    color: #6d7885;
+    width: 120px;
+    flex-shrink: 0;
+    text-align: left;
+  }
+  .profile-title-wrapper {
+    display: block;
+  }
+  .teacher-card {
+    padding: 15px;
+  }
+  .user-card-lg {
+    display: block;
+  }
+  .user-badge-lg {
+    display: block;
+    margin-right: 0;
+    position: relative;
+  }
+  .user-badge-lg .user-badge-img {
+    margin: 0 auto;
+  }
+  .user-badge-lg .user-badge-caption {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .user-card-lg .user-price {
+    margin-top: 15px;
+  }
+  .user-card-lg .btn {
+    margin-top: 15px;
+    padding: 10px 24px;
+  }
+  .teacher-card-bottom {
+    display: block;
+    margin-top: 15px;
+  }
+  .teacher-card-subjects {
+    padding-right: 0;
+  }
+  .user-price {
+    display: none;
+  }
+  .user-price.user-price-xs {
+    display: block;
+    margin-top: 15px;
+  }
+  .user-price-xs .btn {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .btn-top {
+    display: none;
+  }
+  .btn-top.btn-top-xs {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="icon" href="img/logo/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<div class="main-wrapper">
+
+  <div class="page-wrapper profile-page call-history-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="sidebar profile-sidebar">
+            <div class="profile-card">
+              <div class="user-badge">
+                <div class="user-badge-img">
+                  <img src="img/main/user-img.png" alt="">
+                </div>
+                <div class="user-badge-caption">
+                  <div class="user-badge-name">Сауле И.</div>
+                  <div class="user-badge-info">
+                    <div class="user-rating">4.8</div>
+                    <div class="user-money">5 150</div>
+                  </div>
+                </div>
+              </div>
+              <div class="progress-bar progress-level">
+                <div class="progress-bar-mark"></div>
+                <img src="img/icon/face.png" alt="">
+                <div class="progress-bar-value">Начальный <span>60 ₸/мин</span></div>
+              </div>
+              <div class="switch-wrapper">
+                <label class="switch">
+                  <input type="checkbox">
+                  <span class="slider"></span>
+                </label>
+                <div class="switch-text">
+                  <span>Принимать звонки</span>
+                </div>
+              </div>
+            </div>
+            <ul class="sidebar-nav">
+              <li>
+                <a class="sidebar-nav-link active" href="">Мой профиль</a>
+              </li>
+              <li>
+                <a class="sidebar-nav-link" href="">Расписание занятий</a>
+              </li>
+              <li>
+                <a class="sidebar-nav-link" href="">История звонков</a>
+              </li>
+              <li>
+                <a class="sidebar-nav-link" href="">Статистика</a>
+              </li>
+              <li>
+                <a class="sidebar-nav-link" href="">Контакты</a>
+              </li>
+            </ul>
+            <div class="progress-bar">
+              <div class="progress-bar-mark"></div>
+              <div class="progress-bar-value">Заполнено на <span>25</span>%</div>
+            </div>
+            <a class="profile-edit-link" href="">Редактировать профиль</a>
+          </div>
+          <button class="toggle-sidebar">
+            <span>Показать фильтры</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 6V3" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M5 21V10" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 14V3" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 21V18" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M19 6V3" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M19 21V10" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6.41422 6.58579C7.19527 7.36684 7.19527 8.63317 6.41422 9.41422C5.63317 10.1953 4.36684 10.1953 3.58579 9.41422C2.80474 8.63317 2.80474 7.36684 3.58579 6.58579C4.36684 5.80474 5.63317 5.80474 6.41422 6.58579" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M13.4142 14.5858C14.1953 15.3669 14.1953 16.6332 13.4142 17.4142C12.6332 18.1953 11.3668 18.1953 10.5858 17.4142C9.80474 16.6332 9.80474 15.3669 10.5858 14.5858C11.3668 13.8048 12.6332 13.8048 13.4142 14.5858" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M20.4142 6.58579C21.1953 7.36684 21.1953 8.63317 20.4142 9.41422C19.6332 10.1953 18.3668 10.1953 17.5858 9.41422C16.8047 8.63317 16.8047 7.36684 17.5858 6.58579C18.3668 5.80474 19.6332 5.80474 20.4142 6.58579" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+        <div class="col-lg-9">
+          <div class="profile-content">
+            <div class="profile-title-wrapper">
+              <h2 class="profile-content-title">История звонков</h2>
+              <div class="filter-wrapper">
+                <button class="btn-plain toggle-filter">
+                  <i class="icon icon-filter"></i>
+                  <i class="icon icon-close"></i>
+                  <span>Фильтрация</span>
+                </button>
+                <!--"show" меняет видимость "filter-menu"-->
+                <div class="filter-menu">
+                  <div class="form-group">
+                    <input type="text" required>
+                    <label>Имя</label>
+                  </div>
+                  <div class="form-group with-icon">
+                    <input type="email" required id="is">
+                    <i class="icon icon-calendar"></i>
+                    <label>Дата</label>
+                  </div>
+                  <button class="btn btn-primary">
+                    <i class="icon icon-check"></i>
+                    <span>Применить</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="call-history-list">
+              <div class="call-history-row call-history-header">
+                <div class="call-history-data td-1">ФИО</div>
+                <div class="call-history-data td-2">Дата</div>
+                <div class="call-history-data td-3">Прод-ть</div>
+                <div class="call-history-data td-4">Предмет и тема</div>
+                <div class="call-history-data td-5">Бонус</div>
+              </div>
+              <div class="call-history-row">
+                <div class="call-history-data td-1">
+                  <span class="call-history-header-xs">ФИО</span>
+                  Тимур Тансикбаев</div>
+                <div class="call-history-data td-2">
+                  <span class="call-history-header-xs">Дата</span>
+                  19.04.2022</div>
+                <div class="call-history-data td-3">
+                  <span class="call-history-header-xs">Прод-ть</span>
+                  00:03:07</div>
+                <div class="call-history-data td-4">
+                  <span class="call-history-header-xs">Предмет и тема</span>
+                  Математика, уравнения</div>
+                <div class="call-history-data td-5 bonus-data">
+                  <span class="call-history-header-xs">Бонус</span>
+                  +20 <i class="icon icon-bonus-green"></i></div>
+              </div>
+            </div>
+            <ul class="pagination">
+              <li>
+                <a class="pagination-link active" href="">1</a>
+              </li>
+              <li>
+                <a class="pagination-link" href="">2</a>
+              </li>
+              <li>
+                <a class="pagination-link" href="">3</a>
+              </li>
+              <li>
+                <a class="pagination-link" href="">4</a>
+              </li>
+              <li>
+                <a class="pagination-link" href="">5</a>
+              </li>
+              <li>
+                <a class="pagination-link info" href="">...</a>
+              </li>
+              <li>
+                <a class="pagination-link" href="">99</a>
+              </li>
+              <li>
+                <a class="pagination-link" href="">100</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<script src="js/main.js"></script>
+<script>
+
+</script>
+</body>
+</html>
