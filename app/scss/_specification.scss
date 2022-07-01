@@ -1,7 +1,4 @@
-body {
-  font-family: "SF-Pro-Text", sans-serif;
-  margin: 0;
-}
+
 
 .number-notice {
   background: #E64646;
@@ -96,6 +93,18 @@ body {
   background: url("../img/icon/pin.svg");
   width: 20px;
   height: 20px;
+}
+
+.icon-star-green {
+  background: url("../img/icon/star-green.svg");
+  width: 17px;
+  height: 16px;
+}
+
+.icon-arrow-right {
+  background: url("../img/icon/arrow-right-white.svg");
+  width: 24px;
+  height: 24px;
 }
 //*****************icons****************
 
@@ -347,7 +356,15 @@ input[type=number] {
   margin-left: 8px;
 }
 
+.btn span + svg {
+  margin-left: 8px;
+}
+
 .btn i + span {
+  margin-left: 8px;
+}
+
+.btn svg + span {
   margin-left: 8px;
 }
 
@@ -378,7 +395,7 @@ input[type=number] {
   background: #4BB34B;
   color: #FFFFFF;
   span {
-    color: #9099A3;
+    color: #FFFFFF;
   }
   &:hover {
     background: #258225;

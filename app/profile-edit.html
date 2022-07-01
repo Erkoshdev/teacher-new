@@ -10,152 +10,140 @@
 </head>
 <body>
 <div class="main-wrapper">
-<!--  <header>
-    <a href="profile-edit.html" class="header-logo">
-      <img src="img/logo/logo-30.svg" alt="">
-      <span>Daryn.Teacher</span>
-    </a>
-    <div class="mobile-menu">
-      <div class="header-nav-wrapper">
-        &lt;!&ndash;Добавь ".active" чтобы бургер открылся&ndash;&gt;
-        <button class="btn-plain toggle-header-nav">
+  <header>
+    <div class="container">
+      <div class="header">
+        <a href="profile-edit.html" class="header-logo">
+          <img src="img/logo/logo-30.svg" alt="">
+          <span>Daryn.Teacher</span>
+        </a>
+        <div class="mobile-menu">
+          <div class="header-nav-wrapper">
+            <!--Добавь ".active" чтобы бургер открылся-->
+            <button class="btn-plain toggle-header-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <ul class="header-nav">
+              <li>
+                <a class="header-navlink active" href="">Курсы</a>
+                <!--".show" показывает dropdown-->
+                <!--<div class="header-navlink-dropdown">
+                  <div class="navlink-dropdown-list">
+                    <a class="header-navlink-item" href="">
+                      <div class="navlink-item-img">
+                        <img src="img/main/clapper.png" alt="">
+                      </div>
+                      <div class="navlink-item-caption">
+                        <h6>Школьная программа</h6>
+                        <p>Все школьные предметы и экзамены</p>
+                      </div>
+                    </a>
+                    <a class="header-navlink-item" href="">
+                      <div class="navlink-item-img">
+                        <img src="img/main/clapper.png" alt="">
+                      </div>
+                      <div class="navlink-item-caption">
+                        <h6>Школьная программа</h6>
+                        <p>Все школьные предметы и экзамены</p>
+                      </div>
+                    </a>
+                    <a class="header-navlink-item" href="">
+                      <div class="navlink-item-img">
+                        <img src="img/main/clapper.png" alt="">
+                      </div>
+                      <div class="navlink-item-caption">
+                        <h6>Школьная программа</h6>
+                        <p>Все школьные предметы и экзамены</p>
+                      </div>
+                    </a>
+                    <a class="header-navlink-item" href="">
+                      <div class="navlink-item-img">
+                        <img src="img/main/clapper.png" alt="">
+                      </div>
+                      <div class="navlink-item-caption">
+                        <h6>Школьная программа</h6>
+                        <p>Все школьные предметы и экзамены</p>
+                      </div>
+                    </a>
+                    <a class="header-navlink-item" href="">
+                      <div class="navlink-item-img">
+                        <img src="img/main/clapper.png" alt="">
+                      </div>
+                      <div class="navlink-item-caption">
+                        <h6>Школьная программа</h6>
+                        <p>Все школьные предметы и экзамены</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>-->
+              </li>
+              <li>
+                <a class="header-navlink" href="">Предметы</a>
+              </li>
+              <li>
+                <a class="header-navlink" href="">Репетиторы</a>
+              </li>
+              <li>
+                <a class="header-navlink" href="">Пробный тест</a>
+              </li>
+              <li>
+                <a class="header-navlink" href="">
+                  Олимпиады
+                  <span class="number-notice">3</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-tools">
+            <div class="header-lang">
+              <button class="btn-plain toggle-header-lang">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M18.75 21.25L20 18.75L16.315 16.2738L13.8862 16.1188L12.5 17.5L15 21.25H18.75Z" stroke="#162F71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.0163 3.79375C8.98627 3.1825 3.18252 8.98625 3.79377 16.0163C4.25877 21.365 8.63377 25.74 13.9825 26.205C21.0125 26.8163 26.8163 21.0138 26.205 13.9825C25.74 8.635 21.365 4.26 16.0163 3.79375Z" stroke="#162F71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M4.93896 9.95125L10.0002 13.75L11.2565 11.2562L16.2502 10L17.7277 4.09125" stroke="#162F71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="lang-value">RU</span>
+              </button>
+              <div class="dropdown-menu">
+                <a href="" class="dropdown-menu-link">Русский</a>
+                <a href="" class="dropdown-menu-link">Қазақша</a>
+                <a href="" class="dropdown-menu-link">English</a>
+              </div>
+            </div>
+            <div class="header-profile">
+              <a class="header-profile-toggle" href="">
+                <img src="img/main/user-img.png" alt="">
+              </a>
+              <!--".show" показывает dropdown-->
+              <div class="dropdown-menu">
+                <a href="" class="dropdown-menu-link">Профиль</a>
+                <a href="" class="dropdown-menu-link">Редактировать профиль</a>
+                <a href="" class="dropdown-menu-link">Выйти</a>
+              </div>
+            </div>
+            <a class="header-auth" href="">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.5962 9.90381C19.1346 12.4422 19.1346 16.5578 16.5962 19.0962C14.0578 21.6346 9.94222 21.6346 7.40381 19.0962C4.8654 16.5578 4.8654 12.4422 7.40381 9.90381C9.94222 7.3654 14.0578 7.3654 16.5962 9.90381" stroke="#818C99" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 16.5V13.95" stroke="#818C99" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M11.997 12.431C11.583 12.431 11.247 12.767 11.25 13.181C11.25 13.595 11.586 13.931 12 13.931C12.414 13.931 12.75 13.595 12.75 13.181C12.75 12.767 12.414 12.431 11.997 12.431" stroke="#818C99" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M8.26904 5.848C8.68804 4.211 10.173 3 11.941 3C14.034 3 15.73 4.696 15.73 6.789V9.179" stroke="#818C99" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>Войти</span>
+            </a>
+          </div>
+        </div>
+        <!--Добавь ".active" чтобы бургер открылся-->
+        <button class="btn-plain toggle-mobile-menu">
           <span></span>
           <span></span>
           <span></span>
         </button>
-        <ul class="header-nav">
-          <li>
-            <a class="header-navlink active" href="">Курсы</a>
-            &lt;!&ndash;".show" показывает dropdown&ndash;&gt;
-            <div class="header-navlink-dropdown">
-              <div class="navlink-dropdown-list">
-                <a class="header-navlink-item" href="">
-                  <div class="navlink-item-img">
-                    <img src="img/main/clapper.png" alt="">
-                  </div>
-                  <div class="navlink-item-caption">
-                    <h6>Школьная программа</h6>
-                    <p>Все школьные предметы и экзамены</p>
-                  </div>
-                </a>
-                <a class="header-navlink-item" href="">
-                  <div class="navlink-item-img">
-                    <img src="img/main/clapper.png" alt="">
-                  </div>
-                  <div class="navlink-item-caption">
-                    <h6>Школьная программа</h6>
-                    <p>Все школьные предметы и экзамены</p>
-                  </div>
-                </a>
-                <a class="header-navlink-item" href="">
-                  <div class="navlink-item-img">
-                    <img src="img/main/clapper.png" alt="">
-                  </div>
-                  <div class="navlink-item-caption">
-                    <h6>Школьная программа</h6>
-                    <p>Все школьные предметы и экзамены</p>
-                  </div>
-                </a>
-                <a class="header-navlink-item" href="">
-                  <div class="navlink-item-img">
-                    <img src="img/main/clapper.png" alt="">
-                  </div>
-                  <div class="navlink-item-caption">
-                    <h6>Школьная программа</h6>
-                    <p>Все школьные предметы и экзамены</p>
-                  </div>
-                </a>
-                <a class="header-navlink-item" href="">
-                  <div class="navlink-item-img">
-                    <img src="img/main/clapper.png" alt="">
-                  </div>
-                  <div class="navlink-item-caption">
-                    <h6>Школьная программа</h6>
-                    <p>Все школьные предметы и экзамены</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li>
-            <a class="header-navlink" href="">Предметы</a>
-          </li>
-          <li>
-            <a class="header-navlink" href="">Репетиторы</a>
-          </li>
-          <li>
-            <a class="header-navlink" href="">Пробный тест</a>
-          </li>
-          <li>
-            <a class="header-navlink" href="">
-              Олимпиады
-              <span class="number-notice">3</span>
-            </a>
-          </li>
-          <li>
-            <a class="header-navlink with-burger" href="">
-              &lt;!&ndash;Добавь ".active" чтобы бургер открылся&ndash;&gt;
-              <div class="burger-menu">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              Сервисы
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="header-tools">
-        <div class="header-search">
-          <button class="btn-plain toggle-header-search">
-            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M19.6422 8.54775C22.7059 11.6114 22.7059 16.5786 19.6422 19.6423C16.5786 22.7059 11.6114 22.7059 8.54775 19.6423C5.48408 16.5786 5.48408 11.6114 8.54775 8.54775C11.6114 5.48409 16.5786 5.48409 19.6422 8.54775" stroke="#162F71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M23.7502 23.75L19.6377 19.6375" stroke="#162F71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </button>
-        </div>
-        <div class="header-lang">
-          <button class="btn-plain toggle-header-lang">
-            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M18.75 21.25L20 18.75L16.315 16.2738L13.8862 16.1188L12.5 17.5L15 21.25H18.75Z" stroke="#162F71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M16.0163 3.79375C8.98627 3.1825 3.18252 8.98625 3.79377 16.0163C4.25877 21.365 8.63377 25.74 13.9825 26.205C21.0125 26.8163 26.8163 21.0138 26.205 13.9825C25.74 8.635 21.365 4.26 16.0163 3.79375Z" stroke="#162F71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M4.93896 9.95125L10.0002 13.75L11.2565 11.2562L16.2502 10L17.7277 4.09125" stroke="#162F71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            <span class="lang-value">RU</span>
-          </button>
-        </div>
-        <a class="header-basket" href="">
-          <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M7.46131 8.28125L6.62756 4.53125H4.21631" stroke="#162F71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.66393 18.5438L7.46143 8.28125H23.2839C24.0802 8.28125 24.6727 9.015 24.5064 9.79375L22.6289 18.5438C22.5052 19.12 21.9964 19.5312 21.4064 19.5312H10.8852C10.2964 19.5312 9.78768 19.12 9.66393 18.5438Z" stroke="#162F71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M21.8315 24.0625C21.5727 24.0625 21.3627 24.2725 21.3652 24.5312C21.3652 24.79 21.5752 25 21.834 25C22.0927 25 22.3027 24.79 22.3027 24.5312C22.3015 24.2725 22.0915 24.0625 21.8315 24.0625" stroke="#162F71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M11.0699 24.0625C10.8112 24.0625 10.6012 24.2725 10.6037 24.5312C10.6024 24.79 10.8124 25 11.0712 25C11.3299 25 11.5399 24.79 11.5399 24.5312C11.5399 24.2725 11.3299 24.0625 11.0699 24.0625" stroke="#162F71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-          <span class="number-notice">3</span>
-        </a>
-        <div class="header-profile">
-          <a href="">
-            <img src="img/main/user-img.png" alt="">
-          </a>
-        </div>
-        <a class="header-auth" href="">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16.5962 9.90381C19.1346 12.4422 19.1346 16.5578 16.5962 19.0962C14.0578 21.6346 9.94222 21.6346 7.40381 19.0962C4.8654 16.5578 4.8654 12.4422 7.40381 9.90381C9.94222 7.3654 14.0578 7.3654 16.5962 9.90381" stroke="#818C99" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M12 16.5V13.95" stroke="#818C99" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M11.997 12.431C11.583 12.431 11.247 12.767 11.25 13.181C11.25 13.595 11.586 13.931 12 13.931C12.414 13.931 12.75 13.595 12.75 13.181C12.75 12.767 12.414 12.431 11.997 12.431" stroke="#818C99" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M8.26904 5.848C8.68804 4.211 10.173 3 11.941 3C14.034 3 15.73 4.696 15.73 6.789V9.179" stroke="#818C99" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-          <span>Войти</span>
-        </a>
       </div>
     </div>
-    &lt;!&ndash;Добавь ".active" чтобы бургер открылся&ndash;&gt;
-    <button class="btn-plain toggle-mobile-menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-  </header>-->
+
+  </header>
   <div class="page-wrapper profile-page">
     <div class="container">
       <div class="row">

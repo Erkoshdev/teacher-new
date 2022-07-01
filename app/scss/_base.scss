@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "SF-Pro-Text", sans-serif;
+  margin: 0;
+}
+
 .scroll-locked {
   height: 100vh;
   overflow-y: hidden;
